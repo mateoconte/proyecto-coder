@@ -30,19 +30,16 @@ header img{margin-right: 20px;}
 
 header{size: 0;}
 header img{width: 140px;}
-header{background-color:lightsalmon;}
-header nav li a{color:black}
 header{position: sticky; top: 0px;
 z-index: 1;}
 
 
 
-header nav ul{list-style: none}
-header nav ul{display: flex; justify-content: space-around;}
+
 h1{display: flex; justify-content: center;}
 
 
-h1{color:darkolivegreen}
+
 
 h1{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 /*------------------TODOOOOO HEROOOOOOOOOOOOO-------*/
@@ -75,10 +72,10 @@ color: black;}
 
 /*?------MAIN-----*/
 /*!---heightALTO widghtANCHO----*/
+.marketing div{flex-wrap:wrap ;}
 .marketing h2{ background-color: black ;color: white;
 padding: 10px; display: flex; justify-content: center;
-align-items: center;
-flex-wrap: wrap;}
+align-items: center;;}
 .marketing img{width: 200px;}
 .marketing .padrediv{display: flex; justify-content: space-between;}
 .marketing .padrediv div{border: 1px solid grey;
