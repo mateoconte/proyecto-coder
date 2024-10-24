@@ -1,0 +1,130 @@
+@media (min-width: 1200px) {
+  .hero div img {
+    width: 20%; }
+  .hero div {
+    display: flex;
+    margin-right: 200px; }
+  .hero h2 {
+    margin-top: 80px; }
+  .hero div p {
+    margin-left: 40px; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero div img {
+    width: 30%; }
+  .hero div p {
+    font-size: small; }
+  .hero h2 a {
+    display: flex;
+    flex-direction: column; }
+  .hero h2 a {
+    background-color: black;
+    color: white;
+    margin-right: 120px;
+    padding: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none; } }
+
+@media (min-width: 517px) and (max-width: 767px) {
+  .hero div p {
+    font-size: small; }
+  .hero div img {
+    width: 30%; }
+  .hero h2 {
+    margin-top: 30px; }
+    .hero h2 a {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: end; }
+      .hero h2 a:hover {
+        background-color: #fafa0a; } }
+
+@media (max-width: 501px) {
+  .hero div p {
+    font-size: small; }
+  .hero div img {
+    width: 30%; }
+  .hero h2 a {
+    display: flex;
+    flex-direction: column; }
+  .hero h2 a {
+    background-color: black;
+    color: white;
+    margin-right: 120px;
+    padding: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none; } }
+
+@media (max-width: 366px) {
+  .hero div img {
+    width: 50%;
+    display: flex; }
+  .hero div {
+    display: flex;
+    flex-direction: column; } }
+
+.hero {
+  height: 800px;
+  background-image: url(../img/banner.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+  .hero div img {
+    width: 300px; }
+  .hero div {
+    display: flex;
+    align-items: center;
+    margin-top: 50px; }
+    .hero div h2 {
+      color: brown;
+      margin-top: 50px; }
+      .hero div h2 a {
+        text-decoration: none; }
+        .hero div h2 a:hover {
+          background-color: #fafa0a;
+          color: black; }
+    .hero div div p {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    .hero div h2 a {
+      background-color: black;
+      color: white;
+      padding: 1px;
+      font-family: 'Times New Roman', Times, serif;
+      position: sticky;
+      top: 20px;
+      text-decoration: none; }
+
+.marketing h2 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.marketing .padrediv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .marketing .padrediv .padrediv div {
+    border: 1px solid grey;
+    width: 201px;
+    height: 200px;
+    text-align: center;
+    margin: 50px 10px 0;
+    box-shadow: 10px 10px 7px -4px rgba(0, 0, 0, 0.75); }
+    .marketing .padrediv .padrediv div .padrediv div img {
+      width: 200px; }
+    .marketing .padrediv .padrediv div .padrediv div h3 {
+      margin: 7px;
+      color: darkgreen;
+      font-size: medium; }
+    .marketing .padrediv .padrediv div .padrediv div a {
+      background-color: black;
+      color: white;
+      padding: 4px;
+      text-decoration: none; }
+      .marketing .padrediv .padrediv div .padrediv div a:hover {
+        background-color: greenyellow;
+        color: black; }

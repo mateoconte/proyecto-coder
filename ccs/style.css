@@ -147,13 +147,12 @@ font-size: small}
 
 
 
-/*MEDIA SQUIRE adaptaciones*/
-/* Estilos generales para pantallas grandes */
+
 body {
     font-size: 16px;
 }
 
-/* Computadoras de pantalla grande */
+
 @media (min-width: 1200px) {
     .hero img {width: 20%;}
     .hero div {display: flex;
@@ -168,7 +167,7 @@ body {
     
     
 
-/* Laptops y netbooks */
+
 @media (min-width: 768px) and (max-width: 1199px) {
     .hero img {
         .hero img{ width: 30%;}
@@ -187,7 +186,7 @@ body {
     .hero p{ font-size: small;}
 }
 
-/* Tablets */
+
 @media (min-width: 517px) and (max-width: 767px) {
     .hero p{font-size: small;}
     .hero img{width: 30%;}
@@ -198,7 +197,7 @@ body {
     
 }
 
-/* Celulares */
+
 @media (max-width: 501px){
     .hero p{font-size: small;}
     .hero img{ width: 30%;}
@@ -221,7 +220,7 @@ body {
 
 
 
-/* Computadoras de pantalla grande */
+
 @media (min-width: 1200px) {
     .losproductos {
         flex-wrap: wrap;
@@ -232,7 +231,7 @@ body {
     }
 }
 
-/* Laptops y netbooks */
+
 @media (min-width: 768px) and (max-width: 1199px) {
     .losproductos {
         grid-template-columns: 1fr 1fr    ; 
@@ -245,7 +244,7 @@ body {
     }
 }
 
-/* Tablets */
+
 @media (min-width: 481px) and (max-width: 767px) {
     .losproductos {
         grid-template-columns: 1fr 1fr    ; 
@@ -261,7 +260,7 @@ body {
     }
 
 
-/* Celulares */
+
 @media (max-width: 480px) {
     .losproductos {
         grid-template-columns: 1fr 1fr    ; 
