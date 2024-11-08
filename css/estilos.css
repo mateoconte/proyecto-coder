@@ -55,7 +55,7 @@
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none; } }
 
-@media (max-width: 366px) {
+@media (max-width: 495px) {
   .hero div img {
     width: 50%;
     display: flex; }
