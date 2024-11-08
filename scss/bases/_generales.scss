@@ -1,0 +1,205 @@
+
+.section {
+    padding: 40px 20px;
+
+    .section-title {
+        font-size: 28px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .section-subtitle {
+        font-size: 24px;
+        color: #444;
+        margin-top: 20px;
+    }
+}
+
+
+.quienes-somos {
+    background-color: $color-accent-light;
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
+
+.productos {
+    background-color: $color-light;
+
+    ul {
+        margin-left: 20px;
+        list-style-type: disc;
+    }
+
+    ul li {
+        margin-bottom: 10px;
+    }
+
+    .section-subtitle {
+        margin-top: 30px;
+    }
+}
+
+
+.filosofia {
+    background-color: $color-accent-dark;
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
+
+.contacto {
+    background-color: #f1f1f1;
+
+    .contact-info p {
+        margin-bottom: 10px;
+    }
+
+    .contact-info strong {
+        font-weight: bold;
+    }
+}
+
+.cajas div:nth-child(1) {
+    background-color: green;
+}
+
+
+.tituloanimado div {
+    background-color: tomato;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    box-shadow: -15px 10px 5px 0px rgba(0, 0, 0, 0.77); 
+    padding: 10px;
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-direction: normal; 
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+.Animacion img {
+    width: 80px;
+    margin-top: 170px;
+}
+
+
+.Animacion {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../img/Green White Simple Thank You Banner (Landscape).png');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.Animacion div {
+    animation-name: pelota;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-direction: normal; 
+}
+
+
+@keyframes pelota {
+    from {
+        margin-top: 100%;
+    }
+    to {
+        margin-top: 0%;
+    }
+}
+
+
+.Animacion h3 {
+    font-size: medium;
+}
+
+
+.ifrm {
+    margin: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.carrusel img {
+    height: 70%;
+    width: 50%;
+}
+.masproductos {
+    display: flex;
+align-items: center;
+    flex-wrap: wrap;
+}
+
+.masproductos h2 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.masproductos .mamadiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.masproductos .mamadiv div {
+    border: 3px solid grey;
+    width: 230px;
+    
+    text-align: center;
+    margin-top: 10px;
+    margin: 50px;
+    box-shadow: 10px 10px 7px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 7px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 7px -4px rgba(0, 0, 0, 0.75);
+}
+
+.masproductos .mamadiv div img {
+    width: 200px;
+}
+
+.masproductos .mamadiv div h3 {
+    margin: 7px;
+    color: darkgreen;
+    font-size: medium;
+}
+
+.masproductos .mamadiv div a {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    text-decoration: none;
+}
+
+.masproductos .mamadiv div a:hover {
+    background-color: greenyellow;
+    color: black;
+}
